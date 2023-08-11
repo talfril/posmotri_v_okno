@@ -124,6 +124,7 @@ ol {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
+
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
 }
@@ -233,9 +234,9 @@ ol {
   font-weight: 700;
   line-height: 94%;
   text-transform: uppercase;
-  position: absolute;
+/* position: absolute;
   bottom: 580px;
-  /* Вырвала элемент из потока и установила абсолютное
+   Вырвала элемент из потока и установила абсолютное
   позиционирование, чтобы на экране ошибки оставался
   на нужном месте. Без последних двух строк "position: absolute; и
   bottom: 580px;" элемент опускается на дно контейнера */
