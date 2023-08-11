@@ -234,12 +234,6 @@ ol {
   font-weight: 700;
   line-height: 94%;
   text-transform: uppercase;
-/* position: absolute;
-  bottom: 580px;
-   Вырвала элемент из потока и установила абсолютное
-  позиционирование, чтобы на экране ошибки оставался
-  на нужном месте. Без последних двух строк "position: absolute; и
-  bottom: 580px;" элемент опускается на дно контейнера */
 }
 
 .content__accent {
@@ -254,6 +248,7 @@ ol {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  min-height: 300px;
 }
 
 .content__card-link_current {
