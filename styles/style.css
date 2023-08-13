@@ -81,7 +81,7 @@ ol {
   max-height: 100%;
 }
 
-.resoult {
+.result {
   width: 711px;
   height: 456px;
   display: flex;
@@ -91,9 +91,7 @@ ol {
 
 .result__video-container {
   position: relative;
-  width: 711px;
   height: 386px;
-  margin-bottom: 16px;
 }
 
 .result__video {
@@ -289,9 +287,8 @@ ol {
   color: #fff;
   display: block;
   margin: 2px;
-  padding-top: 2px;
   max-width: 399px;
-  max-height: 103px;
+  max-height: 107px;
 }
 
 .content__card-link:focus {
@@ -323,6 +320,7 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 6px;
+  padding-top: 4px;
 }
 
 .content__video-card-title {
@@ -341,7 +339,6 @@ ol {
 }
 
 .content__video-card-thumbnail {
-  align-self: center;
   min-width: 194px;
   max-height: 103px;
   object-fit: fill;
